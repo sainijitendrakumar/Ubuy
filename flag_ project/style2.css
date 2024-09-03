@@ -1,0 +1,95 @@
+body{
+   width:100%;
+   height: 100%;
+   display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.project{
+   width:44rem;
+   height: 12rem;
+   border: 2px solid black;
+   border-radius: 3rem;
+   
+}
+.search-bar{
+   position: relative;
+   display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid black;
+}
+.search-bar i{
+  position: absolute;
+  right: 3rem;
+}
+.search-bar input{
+   width: 43rem;
+   padding: 1rem;
+   height: 5rem;
+   border: none;
+   border-radius: 10rem;
+}
+
+.carousel {
+   display: flex;
+   margin-right: 46px;
+   justify-content: center;
+   align-items: center;
+   width: 69%;
+   height: 5rem;
+   overflow: hidden;
+   position: relative;
+   object-fit: cover
+}
+.carousel-bar h3 {
+   margin-left: 47px;
+   font-family:'Courier New', Courier, monospace
+}
+
+.carousel-bar {
+   margin-top: 5px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.carousel-inner {
+  margin-left: -26rem;
+   display: flex;
+   transition: transform 0.5s ease;
+   width: calc(100%/7);
+  
+}
+
+
+.carousel-item {
+   text-align: center;
+   min-width: 100%;
+   box-sizing: border-box;
+
+}
+
+img {
+   width: 66%;
+   height: auto;
+}
+
+.controls {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   transform: translateY(-50%);
+
+}
+
+.control-btn {
+   color: #1a1818;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   margin: -10px;
+}
